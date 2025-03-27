@@ -1,0 +1,25 @@
+############### 공통 ######################
+장르별 흥행도
+ - genre vs popularity, vote_average, revenue 등
+
+국가별 콘텐츠 장르 분포
+ - country 별 genre 비율
+
+예산 대비 수익
+ - ROI (수익/예산 비율)
+ - 예산대비 흥행한 장르, 국가, 감독 분석
+
+유명 감독 vs 일반 감독 간 평점 비교
+ - vote_average 가준으로 감독의 영향력 확인
+ - 가능하다면 IMDb와 같은 외부 인기 감독 리스트와 연계
+
+출시 연도별 트렌드 분석
+ - release_year 또는 date_added 기준 콘텐츠 수 변화
+ - 연도별 인기있는 장르가 이전년도, 혹은 다음년도에 영화/tv쇼 장르변화에 영향을 미쳤는지 확인
+
+다수의 국가 제작 여부와 흥행성
+ - 다국적 프로젝트가 더 높은 vote_average / revenue를 보이는지 확인
+
+############### 비교 ########################
+동일한 장르일 때 movies vs tvshows 어느쪽이 더 인기 있는가
+ - 동일 장르 vote_average, popularity, revenue 등 movies vs tvshows 비교
