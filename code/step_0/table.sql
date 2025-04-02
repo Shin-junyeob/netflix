@@ -40,3 +40,15 @@ CREATE TABLE tvshows (
     vote_average FLOAT,
     PRIMARY KEY (show_id, duration)
 );
+
+CREATE TABLE metadata_movies (
+    show_id INT,
+    genres VARCHAR(255),
+    FOREIGN KEY (show_id) REFERENCES movies(show_id)
+);
+
+CREATE TABLE metadata_tvshows (
+    show_id INT,
+    genres VARCHAR(255),
+    FOREIGN KEY (show_id) REFERENCES tvshows(show_id)
+);
